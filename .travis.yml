@@ -1,0 +1,14 @@
+dist: xenial
+language: node_js
+node_js:
+- '10.2'
+sudo: enabled
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: "$GITHUB_TOKEN"
+  local-dir: "./"
+  on:
+    branch: master
+  target-branch: gh-pages
+  verbose: true
