@@ -32,6 +32,7 @@
   border-width: 1px;
   padding: 20px;
   background-color: #ffffff;
+  /* for shadow effect */
   -webkit-box-shadow: 7px 7px 3px 0px rgba(0, 0, 0, 0.56);
   -moz-box-shadow: 7px 7px 3px 0px rgba(0, 0, 0, 0.56);
   box-shadow: 7px 7px 3px 0px rgba(0, 0, 0, 0.56);
@@ -43,7 +44,13 @@
   background-color: #ffffff;
   margin-left: 850px;
   border: 2px solid black;
+  /* for shadow effect */
   -webkit-box-shadow: 7px 7px 3px 0px rgba(0, 0, 0, 0.56);
   -moz-box-shadow: 7px 7px 3px 0px rgba(0, 0, 0, 0.56);
   box-shadow: 7px 7px 3px 0px rgba(0, 0, 0, 0.56);
+}
+
+.format_body {
+  background-color:#76858a; 
+  margin-left: 60px
 }
