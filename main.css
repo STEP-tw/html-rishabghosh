@@ -27,7 +27,8 @@
 }
 
 .left_box {
-  width: 790px;
+  width: 780px;
+  margin-left: 15px;
   float: left;
   border-style: solid;
   border-width: 1px;
@@ -41,10 +42,10 @@
 }
 
 .right_box {
-  width: 400px;
+  width: 380px;
   height: 850px;
   background-color: #ffffff;
-  margin-left: 850px;
+  margin-left: 860px;
   border: 2px solid black;
   opacity: 0.9;
   /* for shadow effect */
@@ -69,14 +70,12 @@
 
 .for_header {
   height: 503px;
-  margin: -10px;
   width: 1230px;
   padding: 10px;
   padding-right: 20px;
   padding-bottom: 5px;
   background-color: black;
   margin-bottom: 20px;
-  margin-left: 1px;
   color: silver;
   text-align: center;
   font-size: 40px;
