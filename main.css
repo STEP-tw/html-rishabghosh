@@ -55,6 +55,7 @@
 }
 
 .format_body {
+  font-family: sans-serif;
   background-color: #76858a;
   margin-left: 85px
 }
@@ -93,4 +94,14 @@
 
 .image_header:hover {
   opacity: 0.8;
+}
+
+.container {
+  height: 3000px;
+  background-color: lightgray;
+  width: 1260px;
+}
+
+.paragraphs {
+  font-size: 18px;
 }
