@@ -1,4 +1,3 @@
-remove san serif from everywhere use serif only
 try to remove cool crossbow test when heading is hovered
 
 rename images 
