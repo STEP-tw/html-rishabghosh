@@ -77,3 +77,16 @@
   margin-bottom: 20px;
   margin-left: 1px;
 }
+
+.image_header {
+  width: 1240px;
+  opacity: 0.4;
+}
+
+.cool_crossbows {
+  margin-top: -300px;
+  color: silver;
+  font-size: 40px;
+  text-align: center;
+  opacity: 0.7;
+}
