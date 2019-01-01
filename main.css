@@ -18,9 +18,10 @@
 
 .popular_crossbow_heading {
   color: white;
-  height: 30px;
+  height: 20px;
   background-color: black;
-  margin-top: -22px;
+  padding: 5px;
+  padding-bottom: 10px;
   padding-left: 20px;
   border-bottom: 1px solid black;
 }
@@ -51,6 +52,28 @@
 }
 
 .format_body {
-  background-color:#76858a; 
+  background-color: #76858a;
   margin-left: 85px
+}
+
+.jump_to {
+  padding-left: 20px;
+  font-size: 35px;
+}
+
+.jump_to:hover {
+  color: red;
+}
+
+.for_header {
+  height: 500px;
+  width: 1350px;
+  margin: -10px;
+  width: 1230px;
+  padding: 10px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  background-color: black;
+  margin-bottom: 20px;
+  margin-left: 1px;
 }
