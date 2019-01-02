@@ -1,3 +1,7 @@
+.main_img {
+  text-align: center;
+}
+
 .small_crossbow_image {
   float: left;
   margin-top: 10px;
@@ -95,7 +99,9 @@
 
 .paragraphs {
   font-size: 18px;
-  margin-left: 15px;
+  padding-left: 15px;
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
 } 
 
 .introduction {
