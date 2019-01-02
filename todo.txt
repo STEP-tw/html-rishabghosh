@@ -1,6 +1,9 @@
 try to remove cool crossbow test when heading is hovered
 
-rename images 
 rename classes - take suggestions
-
+remove list
+put paragraphs in spans?
+in heading overlap image over text or vice-versa?
+  -now it image over text
+  - opposite has more flexibilityz`
 
