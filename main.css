@@ -96,7 +96,7 @@ a {
 }
 
 .container {
-  height: 3000px;
+  height: 5000px;
   background-color: lightgray;
   width: 1260px;
 }
@@ -104,6 +104,7 @@ a {
 .paragraphs {
   font-size: 18px;
   padding-left: 15px;
+  padding-right: 15px;
   border-bottom: 1px solid black;
   padding-bottom: 50px;
   
