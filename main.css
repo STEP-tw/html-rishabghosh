@@ -105,7 +105,8 @@ a {
   font-size: 18px;
   padding-left: 15px;
   border-bottom: 1px solid black;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
+  
 }
 
 .introduction {
@@ -125,10 +126,14 @@ a {
 
 .amazon_link {
   border-radius: 50px;
-  background-color: #f98029;
+  background-color: #f47214;
   margin-left: 170px;
   margin-right: 170px;
   padding: 10px;
   text-align: center;
   font-size: 22px;
+}
+
+.amazon_link:hover {
+  background-color: #f98029;
 }
