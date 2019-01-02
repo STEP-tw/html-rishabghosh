@@ -124,6 +124,10 @@ a {
 }
 
 .amazon_link {
+  border-radius: 50px;
+  background-color: #f98029;
+  margin-left: 170px;
+  margin-right: 170px;
   padding: 10px;
   text-align: center;
   font-size: 22px;
