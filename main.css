@@ -1,4 +1,4 @@
-.small_image {
+.small_crossbow_image {
   float: left;
   margin-top: 10px;
   margin-left: 20px;
@@ -6,12 +6,12 @@
 }
 
 .crossbow_names {
+  font-size: 20px;
   margin-left: 150px;
   padding-top: 40px
 }
 
 .right_box_rows {
-  font-size: 20px;
   height: 110px;
   border-bottom: 1px solid black;
 }
@@ -60,16 +60,7 @@
   margin-left: 85px
 }
 
-.jump_to {
-  padding-left: 20px;
-  font-size: 35px;
-}
-
-.jump_to:hover {
-  color: red;
-}
-
-.for_header {
+.header {
   height: 503px;
   width: 1230px;
   padding: 10px;
@@ -82,7 +73,7 @@
   font-size: 40px;
 }
 
-.image_header {
+.header_image {
   margin-top: -264px;
   width: 1240px;
   opacity: 0.4;
@@ -92,7 +83,7 @@
   margin-top: 220px;
 }
 
-.image_header:hover {
+.header_image:hover {
   opacity: 0.8;
 }
 
