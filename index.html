@@ -4,16 +4,26 @@
 
 <head>
   <title>Cool Crossbows</title>
+
   <link rel="shortcut icon" type="image/x-icon" href="/html-rishabghosh/images/favicon.ico" />
+
   <link rel="stylesheet" type="text/css" href="main.css" />
+
   <script>
+
     const removeHeading = function () {
       let element = document.getElementById("cool_crossbows");
-      element.innerText = "";
+      let list = document.getElementById("jump_to");
+      element.innerText = "\n";
+      console.log("about to change color");
+      list.style.color = "#333030";
     }
+
     const addHeading = function () {
       let element = document.getElementById("cool_crossbows");
+      let list = document.getElementById("jump_to");
       element.innerText = "COOL CROSSBOWS";
+      list.style.color = "#838383";
     }
   </script>
 </head>
@@ -23,9 +33,18 @@
   <div class="container">
 
     <div class="header">
-      <img src="/html-rishabghosh/images/three_crossbows.jpg" alt="crossbows" class="header_image" onmouseover="removeHeading()" 
-      onmouseout="addHeading()"/>
-      <h2 class="cool_crossbows" id="cool_crossbows">COOL CROSSBOWS</h2>
+
+      <img src="/html-rishabghosh/images/three_crossbows.jpg" alt="crossbows" class="header_image" onmouseover="removeHeading()"
+        onmouseout="addHeading()" />
+
+      <div style="margin-top: -350px">
+
+        <h2 id="cool_crossbows">COOL CROSSBOWS</h2>
+
+        <h4 id="jump_to" class="centered">Jump To</h4>
+
+      </div>
+
     </div>
 
     <div>

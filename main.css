@@ -93,9 +93,27 @@ a {
   opacity: 0.9;
 }
 
+.jump_to {
+  text-align: left;
+  margin-left: 30px;
+  margin-top: 150px;
+  width: 185px;
+  padding-left: 15px;
+  color: #838383;
+  height: 50px;
+}
+
+.centered {
+  position: absolute;
+  color: #838383;
+  top: 59%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+}
+
+
 .header_image:hover {
   opacity: 0.8;
-  
 }
 
 .container {
@@ -110,7 +128,6 @@ a {
   padding-right: 15px;
   border-bottom: 1px solid black;
   padding-bottom: 50px;
-  
 }
 
 .introduction {
