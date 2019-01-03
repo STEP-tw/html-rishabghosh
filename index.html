@@ -6,16 +6,26 @@
   <title>Cool Crossbows</title>
   <link rel="shortcut icon" type="image/x-icon" href="/html-rishabghosh/images/favicon.ico" />
   <link rel="stylesheet" type="text/css" href="main.css" />
+  <script>
+    const removeHeading = function () {
+      let element = document.getElementById("cool_crossbows");
+      element.innerText = "";
+    }
+    const addHeading = function () {
+      let element = document.getElementById("cool_crossbows");
+      element.innerText = "COOL CROSSBOWS";
+    }
+  </script>
 </head>
 
 
 <body class="format_body">
-
   <div class="container">
 
     <div class="header">
-      <h1 class="cool_crossbows"></h1>COOL CROSSBOWS</h1>
-      <img src="/html-rishabghosh/images/three_crossbows.jpg" alt="crossbows" class="header_image" />
+      <img src="/html-rishabghosh/images/three_crossbows.jpg" alt="crossbows" class="header_image" onmouseover="removeHeading()" 
+      onmouseout="addHeading()"/>
+      <h2 class="cool_crossbows" id="cool_crossbows">COOL CROSSBOWS</h2>
     </div>
 
     <div>

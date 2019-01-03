@@ -83,17 +83,19 @@ a {
 }
 
 .header_image {
-  margin-top: -264px;
+  margin-top: 0px;
   width: 1240px;
   opacity: 0.4;
 }
 
 .cool_crossbows {
-  margin-top: 220px;
+  margin-top: -300px;
+  opacity: 0.9;
 }
 
 .header_image:hover {
   opacity: 0.8;
+  
 }
 
 .container {
