@@ -3,6 +3,10 @@ a {
   text-decoration: none;
 }
 
+a p {
+  color: white; /* para inside anchor */
+}
+
 .main_img {
   text-align: center;
 }
@@ -94,6 +98,7 @@ a {
 }
 
 .jump_to {
+  height: 70px;
   position: relative;
   color: #838383;
   margin-top: 165px;
@@ -161,28 +166,31 @@ a {
   border: 2px solid black;
   padding-top: 22px;
   font-size: 22px;
-  color: whitesmoke;
-  opacity: 0;
+  visibility: hidden;
 }
 
 .drop_down_hover {
   height: 70px;
-  padding-top: 15px;
   position: absolute;
   margin-top: -910px;
   width: 300px;
   margin-left: 45px;
   background-color: #303030;
   border: 2px solid black;
-  padding-top: 22px;
   font-size: 22px;
-  color: whitesmoke;
-  opacity: 1;
+  visibility: visible;
 }
 
 .each_list {
-  padding-bottom: 5px;
+  margin-top: -22px;
+  line-height: 30px;
+  padding: 5px;
   padding-left: 20px;
-  margin-top: -17px;
   border-bottom: 1px solid white;
+  background-color: #303030;
+}
+
+.each_list:hover {
+  background-color: rgb(217, 216, 216);
+  color: #303030;
 }

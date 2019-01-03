@@ -45,19 +45,24 @@
 
     <div class="header">
 
-      <img src="/html-rishabghosh/images/three_crossbows.jpg" alt="crossbows" class="header_image" onmouseover="removeHeading()"
-        onmouseout="addHeading()" />
+      <div onclick="makeListVisible()">
+        <img src="/html-rishabghosh/images/three_crossbows.jpg" alt="crossbows" class="header_image" onmouseover="removeHeading()"
+          onmouseout="addHeading()" />
+      </div>
 
       <div style="margin-top: -350px">
         <h2 id="cool_crossbows">COOL CROSSBOWS</h2>
-        <h4 id="jump_to" class="jump_to" onmouseover="makeListVisible()" onmouseout="makeListVisible()">Jump To</h4>
+        <a href="#cool_crossbows">
+          <h4 id="jump_to" class="jump_to" onclick="makeListVisible()">
+            Jump To</h4>
+        </a>
       </div>
 
     </div>
 
 
 
-    <div>
+    <div onclick="makeListVisible()">
 
       <div class="left_box">
 
@@ -89,7 +94,7 @@
         </div>
 
         <div class="paragraphs">
-          <h3>1. Scorpyd Aculeus (460 fps)</h3>
+          <h3 id="Scorpyd-Aculeus">1. Scorpyd Aculeus (460 fps)</h3>
 
           <div class="main_img">
             <img src="/html-rishabghosh/images/Scorpyd-Aculeus.jpg" alt="Scorpyd-Aculeus" />
@@ -139,7 +144,7 @@
         </div>
 
         <div class="paragraphs">
-          <h3>2. TenPoint Nitro X (440 fps)</h3>
+          <h3 id="TenPoint-Nitro-X">2. TenPoint Nitro X (440 fps)</h3>
 
           <div class="main_img">
             <img src="/html-rishabghosh/images/TenPoint-Nitro-X.jpg" alt="Scorpyd-Aculeus" />
@@ -639,8 +644,14 @@
 
       <div id="drop_down" class="drop_down_list">
 
-        <p class="each_list">Scorpyd Aculeus</p>
-        <p class="each_list">TenPoint Nitro X</p>
+        <a href="#Scorpyd-Aculeus">
+          <p class="each_list">Scorpyd Aculeus</p>
+        </a>
+
+        <a href="#TenPoint-Nitro-X">
+          <p class="each_list">TenPoint Nitro X</p>
+        </a>
+
       </div>
 
     </div>
