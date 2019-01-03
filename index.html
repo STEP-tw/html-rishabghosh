@@ -16,7 +16,7 @@
       let list = document.getElementById("jump_to");
       element.innerText = "\n";
       console.log("about to change color");
-      list.style.color = "#333030";
+      list.style.color = "#303030";
     }
 
     const addHeading = function () {
@@ -25,6 +25,17 @@
       element.innerText = "COOL CROSSBOWS";
       list.style.color = "#838383";
     }
+
+    const makeListVisible = function () {
+      let element = document.getElementById("drop_down");
+      element.classList.toggle("drop_down_hover")
+    }
+
+    const makeListVanish = function () {
+      let element = document.getElementById("drop_down");
+      element.classList.toggle("drop_down_list")
+    }
+
   </script>
 </head>
 
@@ -38,14 +49,13 @@
         onmouseout="addHeading()" />
 
       <div style="margin-top: -350px">
-
         <h2 id="cool_crossbows">COOL CROSSBOWS</h2>
-
-        <h4 id="jump_to" class="centered">Jump To</h4>
-
+        <h4 id="jump_to" class="jump_to" onmouseover="makeListVisible()" onmouseout="makeListVisible()">Jump To</h4>
       </div>
 
     </div>
+
+
 
     <div>
 
@@ -599,8 +609,6 @@
       </div>
 
 
-
-
       <div class="right_box">
 
         <div class="popular_crossbow_heading">
@@ -628,7 +636,16 @@
         </div>
 
       </div>
+
+      <div id="drop_down" class="drop_down_list">
+
+        <p class="each_list">Scorpyd Aculeus</p>
+        <p class="each_list">TenPoint Nitro X</p>
+      </div>
+
     </div>
+
+
   </div>
 </body>
 

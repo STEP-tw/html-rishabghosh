@@ -94,23 +94,13 @@ a {
 }
 
 .jump_to {
-  text-align: left;
-  margin-left: 30px;
-  margin-top: 150px;
-  width: 185px;
-  padding-left: 15px;
+  position: relative;
   color: #838383;
-  height: 50px;
+  margin-top: 165px;
+  width: 180px;
+  left: 11%;
+  transform: translate(-55%, -40%);
 }
-
-.centered {
-  position: absolute;
-  color: #838383;
-  top: 59%;
-  left: 15%;
-  transform: translate(-50%, -50%);
-}
-
 
 .header_image:hover {
   opacity: 0.8;
@@ -158,4 +148,41 @@ a {
 
 .amazon_link:hover {
   background-color: #f98029;
+}
+
+.drop_down_list {
+  height: 70px;
+  padding-top: 15px;
+  position: absolute;
+  margin-top: -910px;
+  width: 300px;
+  margin-left: 45px;
+  background-color: #303030;
+  border: 2px solid black;
+  padding-top: 22px;
+  font-size: 22px;
+  color: whitesmoke;
+  opacity: 0;
+}
+
+.drop_down_hover {
+  height: 70px;
+  padding-top: 15px;
+  position: absolute;
+  margin-top: -910px;
+  width: 300px;
+  margin-left: 45px;
+  background-color: #303030;
+  border: 2px solid black;
+  padding-top: 22px;
+  font-size: 22px;
+  color: whitesmoke;
+  opacity: 1;
+}
+
+.each_list {
+  padding-bottom: 5px;
+  padding-left: 20px;
+  margin-top: -17px;
+  border-bottom: 1px solid white;
 }
