@@ -156,7 +156,7 @@ a p {
 }
 
 .drop_down_list {
-  height: 70px;
+  height: 388px;
   padding-top: 15px;
   position: absolute;
   margin-top: -910px;
@@ -170,7 +170,7 @@ a p {
 }
 
 .drop_down_hover {
-  height: 70px;
+  height: 388px;
   position: absolute;
   margin-top: -910px;
   width: 300px;
@@ -181,7 +181,7 @@ a p {
   visibility: visible;
 }
 
-.each_list {
+.each_list_element {
   margin-top: -22px;
   line-height: 30px;
   padding: 5px;
@@ -190,7 +190,7 @@ a p {
   background-color: #303030;
 }
 
-.each_list:hover {
+.each_list_element:hover {
   background-color: rgb(217, 216, 216);
   color: #303030;
 }
