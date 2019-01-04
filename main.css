@@ -98,12 +98,12 @@ a p {
 }
 
 .jump_to {
-  height: 70px;
+  line-height: 61px;
   position: relative;
   color: #838383;
-  margin-top: 165px;
+  margin-top: 185px;
   width: 180px;
-  left: 11%;
+  left: 9%;
   transform: translate(-55%, -40%);
 }
 
@@ -164,7 +164,7 @@ a p {
   position: absolute;
   margin-top: -887px;
   width: 300px;
-  margin-left: 45px;
+  margin-left: 15px;
   padding-top: 22px;
   background-color: #303030;
   border: 2px solid black;
