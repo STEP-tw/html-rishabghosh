@@ -105,6 +105,7 @@ a p {
   width: 180px;
   left: 9%;
   transform: translate(-55%, -40%);
+  cursor: pointer;
 }
 
 .header_image:hover {
