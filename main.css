@@ -159,7 +159,7 @@ a p {
   visibility: hidden;
 }
 
-.drop_down_hover {
+.drop_down_onclick {
   height: 388px;
   position: absolute;
   margin-top: -887px;
