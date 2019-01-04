@@ -155,11 +155,7 @@ a p {
   background-color: #f98029;
 }
 
-.drop_down_list {
-  visibility: hidden;
-}
-
-.drop_down_onclick {
+.drop_down_hide {
   height: 388px;
   position: absolute;
   margin-top: -887px;
@@ -169,7 +165,7 @@ a p {
   background-color: #303030;
   border: 2px solid black;
   font-size: 22px;
-  visibility: visible;
+  display: none;
 }
 
 .each_list_element {
