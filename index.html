@@ -15,7 +15,6 @@
       let element = document.getElementById("cool_crossbows");
       let list = document.getElementById("jump_to");
       element.innerText = "\n";
-      console.log("about to change color");
       list.style.color = "#303030";
     }
 
@@ -64,7 +63,7 @@
 
     <div>
 
-      <div class="left_box">
+      <div class="left_box" onclick="makeListVanish()">
 
         <h1>World's Fastest Crossbows</h1>
 
@@ -614,7 +613,7 @@
       </div>
 
 
-      <div class="right_box">
+      <div class="right_box" onclick="makeListVanish()">
 
         <div class="popular_crossbow_heading">
           <h2 style="margin-top: 0px"> Popular Crossbows in India </h2>
@@ -642,7 +641,7 @@
 
       </div>
 
-      <div id="drop_down" class="drop_down_hide">
+      <div id="drop_down" class="drop_down_hide" onclick="makeListVanish()">
 
         <a href="#Scorpyd_Aculeus">
           <p class="each_list_element">Scorpyd Aculeus</p>
