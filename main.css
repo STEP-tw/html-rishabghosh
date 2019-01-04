@@ -156,16 +156,6 @@ a p {
 }
 
 .drop_down_list {
-  height: 388px;
-  padding-top: 15px;
-  position: absolute;
-  margin-top: -800px;
-  width: 300px;
-  margin-left: 45px;
-  background-color: #303030;
-  border: 2px solid black;
-  padding-top: 22px;
-  font-size: 22px;
   visibility: hidden;
 }
 
@@ -175,6 +165,7 @@ a p {
   margin-top: -887px;
   width: 300px;
   margin-left: 45px;
+  padding-top: 22px;
   background-color: #303030;
   border: 2px solid black;
   font-size: 22px;
