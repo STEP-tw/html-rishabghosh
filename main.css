@@ -98,12 +98,12 @@ a p {
 }
 
 .jump_to {
-  line-height: 61px;
+  line-height: 60px;
   position: relative;
   color: #838383;
   margin-top: 185px;
   width: 180px;
-  left: 9%;
+  left: 105px;
   transform: translate(-55%, -40%);
   cursor: pointer;
 }
@@ -181,4 +181,13 @@ a p {
 .each_list_element:hover {
   background-color: rgb(217, 216, 216);
   color: #303030;
+}
+
+.top_bar {
+  margin: 0px auto;
+  background-color: #303030;
+  line-height: 1px;
+  border: 1px solid black;
+  color: silver;
+  padding-left: 20px;
 }

@@ -7,3 +7,9 @@ in heading overlap image over text or vice-versa?
   -now it image over text
   - opposite has more flexibilityz`
 
+
+
+put cool crossbow as a topbar remove it from hero image
+change hero image, use the wider version
+make a different div for navigator? or use background
+use navigator (jump_to) in navigation bar
