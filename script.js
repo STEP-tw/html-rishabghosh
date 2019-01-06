@@ -17,7 +17,7 @@ const makeListVisible = function () {
 	element.style.display = "block";
 }
 
-const makeListVanish = function () {
+const hideList = function () {
 	let element = document.getElementById("drop_down");
 	element.style.display = "none";
 }
