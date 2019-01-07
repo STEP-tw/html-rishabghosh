@@ -85,15 +85,15 @@ a p {
   opacity: 0.9;
 }
 
-.jump_to {
-  line-height: 60px;
-  position: relative;
-  color: #838383;
-  margin-top: 185px;
-  width: 180px;
-  left: 105px;
-  transform: translate(-55%, -40%);
+.nav_button {
   cursor: pointer;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.nav_button:hover {
+  color: #303030;
+  background-color: rgb(217, 216, 216);
 }
 
 .header_image:hover {
@@ -188,3 +188,5 @@ a p {
   padding-left: 20px;
   margin-bottom: 20px;
 }
+
+
